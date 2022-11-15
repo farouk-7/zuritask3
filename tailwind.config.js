@@ -28,9 +28,7 @@ module.exports = {
          'dim':'#f1f3f9',
          'charcoal':'#1d1d1e'
       },
-      fontFamily:{
-          fo: ['Red Rose', 'cursive']
-      }
+  
     },
   },
   plugins: [],
