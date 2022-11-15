@@ -1,0 +1,200 @@
+
+.Navbar{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 58px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 12.46px;
+   
+}
+.menu_container{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    gap: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.nav_mobile{
+    transition: all 0.5s ease-out;
+}
+#toggle{
+    font-size: 30px;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+}
+#tag{
+    cursor: pointer;
+    color: #434343;
+}
+#tag:hover{
+    opacity: 0.5;
+}
+#logo{
+    height: 36.67px;
+    cursor: pointer;
+}
+#btn{
+    padding-top: 15px;
+    padding-left: 27px;
+    padding-bottom: 13px;
+    padding-right: 26px;
+    background-color: #a02279;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+#btn:hover{
+    color: #a02279;
+    background-color: #fff;
+    border: 1px solid #a02279;
+}
+#btn1{
+    padding-top: 15px;
+    padding-left: 27px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 26px;
+    background-color: #a02279;
+    color: white;
+    display: none;
+    border-radius: 10px;
+}
+#btn1:hover{
+    color: #a02279;
+    background-color: #fff;
+    border: 1px solid #a02279;
+}
+@media (max-width: 768px){
+    #toggle{
+        font-size: 30px;
+        border-radius: 10px;
+        display: block;
+    }
+    .navbar_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 58px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 12.46px;
+       
+    }
+    #logo{
+        height: 26.67px;
+
+    }
+    .menu{
+       display: none;
+    }
+    #btn{
+        display: none;
+    }
+    #btn1{
+        display: block;
+        background-color: #fff;
+        color: #a02279;
+
+    }
+    #toggle{
+        font-size: 20px;
+        border-radius: 10px;
+        display: block;
+    }
+    .nav-mobile{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        color: #fff;
+        background-color:#a02279;
+        left: 0;
+        top: 100px;
+        z-index: 1;
+        text-align: center;
+        padding: 25px;
+        transition: all 0.5s ease-out;
+        width: 300px;
+        border-bottom-right-radius: 50px;
+    } 
+    .tag{
+        cursor: pointer;
+        color: #fff;
+    }
+    .tag:hover{
+        opacity: 0.5;
+    }
+    } 
+    @media (max-width: 820px){
+        #toggle{
+            font-size: 30px;
+            border-radius: 10px;
+            display: block;
+        }
+        .navbar_container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 58px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 12.46px;
+           
+        }
+        #logo{
+            height: 26.67px;
+    
+        }
+        .menu{
+           display: none;
+        }
+        #btn{
+            display: none;
+        }
+        #btn1{
+            display: block;
+            background-color: #fff;
+            color: #a02279;
+    
+        }
+        #toggle{
+            font-size: 20px;
+            border-radius: 10px;
+            display: block;
+        }
+        .nav-mobile{
+            position:absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            background-color:#a02279;
+            left: 0;
+            top: 100px;
+            z-index: 1;
+            text-align: center;
+            padding: 25px;
+            transition: all 0.5s ease-out;
+            width: 300px;
+            border-bottom-right-radius: 50px;
+        } 
+        .tag{
+            cursor: pointer;
+            color: #fff;
+        }
+        .tag:hover{
+            opacity: 0.5;
+        }
+    }

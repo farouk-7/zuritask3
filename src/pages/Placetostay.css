@@ -1,0 +1,56 @@
+
+li{
+    cursor: pointer;
+    color: #434343;
+}
+li:hover{
+    opacity: 0.5;
+}
+.cod{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.drop{
+    margin: 0px auto;
+    padding: 0px 100px;
+}
+#wow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ghrist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 92px;
+}
+@media (max-width: 768px){
+    .ghrist{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 53px;
+        justify-content: center;
+    }
+    #wow{
+        gap: 20px;
+        font-size: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+    #wow img{
+        height: 30px;
+        margin-top: 15px;
+    }
+
+
+
+
+
+}
+
+

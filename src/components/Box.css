@@ -1,0 +1,122 @@
+.can{ 
+    height: 774px;
+    background-color: #a02279;
+}
+.box_container{ 
+    max-width: 1440px; 
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    margin-top: 186px;
+    margin-left: 100px;
+}
+.right h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.right p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 57.55px;
+}
+.left{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#learn{
+    padding: 14px 33px;
+    background-color: #fff;
+    color: #a02279;
+    border-radius: 8px;
+}
+#learn:hover{
+    opacity: 0.7;
+}
+@media (max-width: 768px){
+    .can{ 
+        height: 874px;
+        background-color: #a02279;
+    }
+    .box_container{ 
+        max-width: 1440px; 
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .right{
+        margin-top: 56px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .right h1{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    .right p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-bottom: 47.55px;
+    }
+    .left{
+       margin: 0px auto;
+    }
+    .left img{
+        margin-top: 70px;
+        height: 400px;
+    }
+    #learn{
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 820px){
+    .can{ 
+        height: 874px;
+        background-color: #a02279;
+    }
+    .box_container{ 
+        max-width: 1440px; 
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .right{
+        margin-top: 56px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .right h1{
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+    .right p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        padding-bottom: 47.55px;
+    }
+    .left{
+       margin: 0px auto;
+    }
+    .left img{
+        margin-top: 70px;
+        height: 400px;
+    }
+    #learn{
+        padding: 10px 30px;
+    }
+}
